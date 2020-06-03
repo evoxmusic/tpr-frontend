@@ -1,0 +1,14 @@
+application:
+  name: tpr-frontend
+  project: TheParisianRestaurant
+  cloud_region: aws/us-east-2
+  publicly_accessible: true
+routers:
+- name: frontend
+  custom_domains:
+  - branch: master
+    domaine: parisian.qvy.io
+  routes:
+  - application_name: tpr-frontend
+    paths:
+    - /
