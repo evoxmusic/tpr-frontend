@@ -7,7 +7,7 @@ routers:
 - name: frontend
   custom_domains:
   - branch: master
-    domaine: parisian.qvy.io
+    domain: parisian.qvy.io
   routes:
   - application_name: tpr-frontend
     paths:
